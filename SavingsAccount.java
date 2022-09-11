@@ -2,11 +2,6 @@ class SavingsAccount
 {
     static double annualinterest;
     double savingsbalance;
-	SavingsAccount() 
-	{
-		savingsbalance=0;
-		annualinterest=0; 
-	}
 	public SavingsAccount(double balance) 
 	{
 		savingsbalance=balance;
